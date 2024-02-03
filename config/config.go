@@ -9,11 +9,10 @@ import (
 // Seperti ENV
 type Config struct {
 	PORT string
-	DB_HOST string
-	DB_USER string
+	DB_USERNAME string
 	DB_PASSWORD string
 	DB_DATABASE string
-	DB_PORT string
+	DB_URL string
 }
 
 var ENV Config
